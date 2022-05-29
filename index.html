@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <title>Recriando Página com Bulma</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="./index.html">
+                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+              </a>    
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu is-active"> <!-- adiciono is-active para ficar responsivo -->
+              <div class="navbar-start">
+                <a class="navbar-item" href="./index.html">
+                  Início
+                </a>          
+                <a class="navbar-item" href="./contato.html">
+                  Contato
+                </a>             
+            </div>
+          </nav>
+    </header>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns"> <!-- separando o projeto em colunas dentro do container -->
+                <div class="column"> <!-- coluna para adicionar o Card de apresentação -->
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">                            
+                            <div class="media-content">
+                              <p class="title is-4">Hebert Santana</p>
+                              <span class="tag is-dark id-medium">Javascript Full Stack Developer</span>                              
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            <p>(37) 99941-4795</p>
+                            <p>hebert.fsantana@gmail.com</p>                          
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+
+
+
+
+                <div class="column is-9"> <!-- Inserir TODOS os Cars em column is-9 -->
+                    <div class="card"> <!-- primeiro CARD da coluna 2 -->
+                        <div class="message-header">
+                            <p>Sobre mim</p>                      
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                               <br>                            
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <br>
+
+                    <div class="card"> <!-- segundo CARD da coluna 2 -->
+                        <div class="message-header">
+                            <p>Experiência</p>                      
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">   <!-- dividindo o content em colunas -->
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Javascript Developer <span class="tag is-dark id-medium">Empresa chamada X</span></p>
+                                        <p>Lorem ipsum dolor sit amet, galo doido amigo o galo é doido. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- separando os itens em experiências -->
+                                <hr>
+                                
+                                <div class="columns">   <!-- dividindo o content em colunas para experiência 2 -->
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Ruby on Rails Developer <span class="tag is-dark id-medium">Empresa chamada Y</span></p>
+                                        <p>Lorem ipsum dolor sit amet, galo doido amigo o galo é doido. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                        </p>
+                                    </div>
+                                </div>                  
+                                                           
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <br>
+
+                    <div class="card"> <!-- terceiro CARD da coluna 2 -->
+                        <div class="message-header">
+                            <p>Formação</p>                      
+                        </div>
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="title is-5">Javascript</p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                               <br>
+                               <hr>
+                               <p class="title is-5">HTML + CSS completo</p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                               <br>                                    
+                            </div>
+                        </div>                        
+                    </div>              
+
+            </div> <!-- columns -->
+        </div> <!-- container -->
+    </section>
+    
+</body>
+</html>
