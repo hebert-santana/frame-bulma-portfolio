@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/styles/bulma.css">
+    <link href="./assets/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+
+
+
+
 
     <title>Portfólio com Bulma</title>
 </head>
 <body>
     <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="./index.html">
-                <img src="./assets/img/logo.png" width="112" height="28">
-              </a>    
-            </div>
-          
-            <div id="navbarBasicExample" class="navbar-menu is-active"> <!-- adiciono is-active para ficar responsivo -->
-              <div class="navbar-start">
-                <a class="navbar-item" href="./index.html">
-                  Início
-                </a>          
-                <a class="navbar-item" href="./contato.html">
-                  Contato
-                </a>             
-            </div>
-          </nav>
+
+      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./index.html">
+            <img src="./assets/img/logo3.png" width="112" height="28">
+          </a>    
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu is-active"> <!-- adiciono is-active para ficar responsivo -->
+          <div class="navbar-start"> <!-- HUE -->
+            <a class="navbar-item" href="./index.html">
+              Início
+            </a>          
+            <a class="navbar-item" href="./contato.html">
+              Contato
+            </a>             
+        </div>
+      </nav>
+      
+        
     </header>
 
     <section class="section">
@@ -49,7 +57,31 @@
                       
                           <div class="content">
                             <p>(37) 99941-4795</p>
-                            <p>hebert.fsantana@gmail.com</p>                          
+                            <p>hebert.fsantana@gmail.com</p>
+
+                            <p class="buttons">
+                              <button class="button is-light">
+                                <span class="icon">
+                                  <i class="fab fa-github-square"></i>
+                                </span>
+                               <span><a href="https://github.com/hebert-santana">GitHub</a></span>
+                              </button>
+
+                              <button class="button is-light">
+                                <span class="icon">
+                                  <i class="fab fa-linkedin"></i>
+                                </span>
+                                <span><a href="https://www.linkedin.com/in/hebert-santana/">Linkedin</a></span>
+                              </button>
+
+                              <button class="button is-light">
+                                <span class="icon">
+                                  <i class="fab fa-instagram"></i>
+                                </span>
+                                <span><a href="https://www.instagram.com/hebert_santanna/">Instagram</a></span>
+                              </button>
+                            </p>                           
+                                                                                
                           </div>
                         </div>
                       </div>
@@ -59,12 +91,12 @@
                 <div class="column is-9"> <!-- Inserir TODOS os Cars em column is-9 -->
                     <div class="card"> <!-- primeiro CARD da coluna 2 -->
                         <div class="message-header">
-                            <p>Contato (em construção)</p>                      
+                            <p>Contato (em construção)<span class="icon"><i class="fas fa-spinner fa-pulse"></i></span></p>                      
                         </div>
                         <div class="card-content">
                             <div class="content">
                                 <div class="field">
-                                    <label class="label">Email</label>
+                                    <label class="label">Email <span class="icon"><i class="fa-solid fa-envelope"></i></span></label>
                                     <div class="control">
                                         <input class="input" type="email" placeholder="digite seu email">
                                     </div>
@@ -81,7 +113,7 @@
 
                                 <div class="field is-grouped is-grouped-left">
                                     <p class="control">
-                                        <a class="button is-primary">Enviar</a>
+                                        <a class="button is-success">Enviar</a>
                                     </p>
                                     <p class="control">
                                         <a class="button is-light"> Cancelar</a>                                        
@@ -102,6 +134,16 @@
             </div> <!-- columns -->
         </div> <!-- container -->
     </section>
+
+    <footer class="footer">       
+      <div class="has-text-centered">
+          <p>Copyright © Hebert Santana <a href="https://www.linkedin.com/in/hebert-santana/">
+              <span class="icon-text">
+                  <span>Linkedin</span>
+              </span>
+          </p>  
+      </div> 
+  </footer>
 
 
 
