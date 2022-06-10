@@ -12,7 +12,7 @@ Colocando em prática o aprendizado no framework Bulma, com um projeto de uma p�
 
 ## 💻 Demonstração
  <p align="center">
- <img align="center" alt="demonstração" src="" />
+ <img align="center" alt="demonstração" src="./assets/img/bulma-page.gif" />
  </p>
 
 ## 🌐 Site
