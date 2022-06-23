@@ -1,4 +1,4 @@
-# Portfolio utilizando framework BULMA (UDEMY)
+# Portfolio utilizando BULMA
 ## Projeto (finalizado :white_check_mark:)
 
 Colocando em prática o aprendizado no framework Bulma, com um projeto de uma página de portfolio durante da UDEMY.
