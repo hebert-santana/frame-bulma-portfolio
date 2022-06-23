@@ -17,7 +17,7 @@ Colocando em prática o aprendizado no framework Bulma, com um projeto de uma p�
 
 ## 🌐 Site
 
-<https://hebert-santana.github.io/portfolio-bulma/>
+<https://hebert-santana.github.io/frame-bulma-portfolio/>
 
 ## Autor
 ~~~ javascript
